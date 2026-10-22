@@ -1,7 +1,7 @@
 ﻿// ==UserScript==
 // @name              LinkSwift
 // @namespace         github.com/hmjz100
-// @version           1.1.4
+// @version           1.1.5
 // @author            Hmjz100、油小猴
 // @icon              data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cGF0aCBkPSJNMTAzLjYgMTA3LjRjMy41LTIuMiA4LjktNi4xIDEzLjgtMTIuNXM3LjMtMTIuNSA4LjUtMTYuNWMuNS0xLjcgMi4yLTcuNSAyLjItMTQuNyAwLTEwLjEtMy4zLTI1LjEtMTUuNC0zNi44LTE0LjUtMTQtMzIuMS0xNC4zLTM1LjctMTQuMy04IDAtMTUuNyAxLjktMjIuNiA1LjJDNDQgMjMgMzUuNyAzMS40IDMwLjggNDEuN2MtMS4zIDIuOC00IDQuNy03LjEgNS00IC4zLTcuNSA0LjQtOC45IDkuNi0uNSAxLjktMS42IDMuNS0zLjEgNC43QzQuNCA2Ni44IDAgNzUuNyAwIDg1YzAgNi44IDIuMyAxMy4xIDYuMSAxOC4yIDUuNSA3LjQgMTQuMiAxMi4yIDI0IDEyLjJoNDcuMWM0LjQgMCAxMS0uNSAxOC4zLTMuNSAzLjItMS40IDUuOS0zIDguMS00LjV6IiBmaWxsPSIjQTA5OUYwIi8+PHBhdGggZD0iTTExOS44IDY0LjNjLjEtMTcuMS0xMC40LTI4LTEyLjUtMzAuMUM5NSAyMi4xIDc5LjkgMjEuOCA3Ni45IDIxLjhjLTE3LjYgMC0zMy4zIDEwLjUtMzkuOSAyNi43LS42IDEuMy0xLjggMi4zLTMuNCAyLjNoLS40Yy01LjggMC0xMC42IDQuOC0xMC42IDEwLjd2LjVjMCAxLjQtLjggMi42LTEuOSAzLjNDMTMuNCA2OSA4LjggNzYuOCA4LjggODVjMCAxMi4yIDkuOSAyMi4zIDIyLjIgMjIuM2g0NS4yYzMuNi0uMSAxNy42LS45IDI5LjYtMTIgMi45LTIuOCAxMy45LTEzLjcgMTQtMzF6IiBmaWxsPSIjNTc0QUI4Ii8+PHBhdGggZD0iTTExMC44IDU3LjRsLjIgMy4zYzAgMS4zLTEuMSAyLjQtMi4zIDIuNC0xLjMgMC0yLjMtMS4xLTIuMy0yLjRsLS4xLTIuOHYtLjNjMC0xLjIuOS0yLjIgMi4xLTIuM2guM2MuNyAwIDEuMy4zIDEuNy43LS4yLjEuMy41LjQgMS40em0tMy4zLTEwLjNjMCAxLjItMSAyLjMtMi4yIDIuM2gtLjFjLS44IDAtMS42LS41LTItMS4yLTQuNi04LjMtMTMuMy0xMy41LTIyLjgtMTMuNS0xLjIgMC0yLjMtMS0yLjMtMi4ydi0uMWMwLTEuMiAxLTIuMyAyLjItMi4zaC4xYTMwLjM3IDMwLjM3IDAgMCAxIDE1LjggNC40YzQuNiAyLjggOC40IDYuOCAxMS4xIDExLjUuMS4zLjIuNy4yIDEuMXpNODguMyA3My44TDczLjUgOTMuMmMtMS41IDEuOS0zLjUgMy4xLTUuNyAzLjVoLS4yYy0uNC4xLS44LjEtMS4yLjEtLjYgMC0xLjEtLjEtMS42LS4yLTIuMi0uNC00LjItMS43LTUuNi0zLjVMNDQuMyA3My45Yy0yLTIuNi0yLjUtNS40LTEuNC03LjcuMS0uMS4xLS4yLjItLjIgMS4yLTIgMy41LTMuMiA2LjQtMy4yaDYuNnYtNS43YzAtNi44IDQuNy0xMiAxMC45LTEyIDQuOCAwIDguNSAyLjYgMTAuMyA3LjIuNSAxLjMtLjIgMi43LTEuNSAzLjJzLTIuOC0uMS0zLjMtMS40Yy0xLjEtMi43LTIuOS00LTUuNS00LTMuNSAwLTYgMy02IDd2OC4xYzAgLjUtLjIgMS0uNiAxLjQtLjYuNy0xLjcgMS4xLTIuNiAxLjFoLTguNGMtMS4zIDAtMiAuNC0yLjEuNy0uMi40IDAgMS4zLjkgMi40TDYzLjEgOTBjLjkgMS4yIDIuMSAxLjggMy4zIDEuOHMyLjMtLjYgMy4xLTEuN2wxNC44LTE5LjNjLjktMS4xIDEuMS0yIC45LTIuNC0uMi0uMy0uOS0uNy0yLjEtLjdoLTcuNmMtLjkgMC0xLjctLjUtMi4xLTEuMi0uMy0uNC0uNC0uOC0uNC0xLjMgMC0xLjQgMS4xLTIuNSAyLjUtMi41aDcuNmMzLjEgMCA1LjUgMS4zIDYuNiAzLjVsLjMuN2MuNyAyLjEuMSA0LjYtMS43IDYuOXoiIGZpbGw9IiNmZmYiLz48L3N2Zz4=
 // @description       (｡>ᴗ•)✧《也许同类型中最好用？》系列 - 一个基于 JavaScript 的网盘文件下载地址获取工具✨，基于【网盘直链下载助手】修改 | 支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 光鸭云盘 / 夸克网盘 / UC网盘 / 123云盘 九大网盘 | 开源・自用・去广 | 改界面・添功能・修Bug | 既超越原版，亦是同类中最好用版本！👋
@@ -210,6 +210,32 @@
 		}
 	};
 
+/**
+	 * qBittorrent 接口常量
+	 * @description 集中维护接口路径与行为阈值，客户端版本变化时只需调整此处
+	 */
+	const QBIT = {
+		api: {
+			version: "/api/v2/app/version",
+			login: "/api/v2/auth/login",
+			add: "/api/v2/torrents/add",
+			info: "/api/v2/torrents/info"
+		},
+		prefix: "/api/v2/",
+		sessionTTL: 20 * 60 * 1000,
+		verifyDelay: 400,
+		verifyRounds: 4,
+		lastTorrentLimit: 50,
+		minTorrentSize: 32
+	};
+
+	/**
+	 * qBittorrent 会话缓存
+	 * @description 批量推送复用同一次登录，避免重复认证触发客户端封禁
+	 */
+	const qbitSessions = new Map();
+	const qbitPending = new Map();
+
 	/**
 	 * 基础配置集合
 	 * @author 油小猴
@@ -254,7 +280,13 @@
 					abdm: {
 						title: "ABDM 下载",
 						footer: `<p>适用于 <a href="https://abdownloadmanager.com/" target="_blank" class="pl-a" data-no-instant="1"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-link"></use></svg>AB Download Manager</a></p>`
-					}
+					},
+					qbit: {
+						title: "qBittorrent 下载",
+						footer: `<p>适用于 <a href="https://www.qbittorrent.org/" target="_blank" class="pl-a" data-no-instant="1"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-link"></use></svg>qBittorrent</a>（WebUI API v2，4.1 及以上版本）及基于其二次开发的客户端</p><p>qBittorrent 是 BitTorrent 客户端，只接收磁力链与 .torrent 种子地址；网盘直链文件请使用 API、Aria2 或比特彗星方式下载</p>`,
+						sendto: "将磁力链或 .torrent 种子地址推送到 qBittorrent 的「添加种子链接」，由客户端取回种子后开始下载。<br/><br/>推送完成后会回查 qBittorrent 任务列表，确认任务真正建立才提示成功。<b>使用前请确保您已经配置好 qBittorrent 服务参数。</b>",
+						direct: "qBittorrent 是 BitTorrent 客户端，只接收磁力链与 .torrent 种子地址，<b>无法直接下载网盘直链文件</b>；此处提供复制地址，方便您粘贴到 Aria2、比特彗星等支持直链的下载器中"
+					},
 				},
 				copy: {
 					name: "点击复制文件名",
@@ -1547,7 +1579,233 @@
 				});
 			});
 		},
-
+		/**
+		  * 转义 HTML 特殊字符
+		  * @description 外部来源文本拼入提示或界面之前统一转义，避免被解析为标签
+		  * @param {String} value - 原始文本
+		  * @returns {String} 转义结果
+		  */
+		escapeHtml(value) {
+			const table = { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" };
+			return String(value ?? "").replace(/[&<>"']/g, char => table[char]);
+		},
+		/**
+		  * 解析 qBittorrent 服务地址
+		  * @author hmjz100
+		  * @description 校验协议与端口，返回不含路径与凭据的来源地址
+		  * @param {Object} rpc - 服务配置，包含 `domain` 与 `port`
+		  * @returns {String} 形如 `http://127.0.0.1:8080` 的来源地址
+		  */
+		qbitEndpoint(rpc = {}) {
+			let domain = String(rpc.domain || "").trim().replace(/\/+$/, "");
+			if (!domain) throw new Error("qBittorrent 服务主机不能为空");
+			if (!/^[a-z][a-z0-9+.-]*:\/\//i.test(domain)) domain = `http://${domain}`;
+			let url;
+			try { url = new URL(domain); } catch { throw new Error("qBittorrent 服务地址无效，请检查服务主机与端口"); }
+			// 仅接受 http 与 https，避免 file、data 等协议被当作接口地址使用
+			if (url.protocol !== "http:" && url.protocol !== "https:") throw new Error("qBittorrent 服务地址只支持 http:// 与 https:// 开头");
+			// 地址内嵌凭据会随 Referer、Origin 等头出现在日志中，凭据统一由配置项提供
+			if (url.username || url.password) throw new Error("qBittorrent 服务地址不能包含账号或密码，请分别填写到下方配置项");
+			const port = String(rpc.port ?? "").trim();
+			if (port && !/^\d{1,5}$/.test(port)) throw new Error("qBittorrent 服务端口应为数字");
+			if (port && !url.port) url.port = port;
+			return url.origin;
+		},
+		/**
+		  * 生成会话缓存键
+		  * @description 按来源地址与账号区分，密码变化通过指纹单独校验
+		  * @param {Object} rpc - 服务配置
+		  * @returns {String} 缓存键
+		  */
+		qbitSessionKey(rpc = {}) {
+			return `${this.qbitEndpoint(rpc)}|${String(rpc.username || "")}`;
+		},
+		/**
+		  * 计算配置指纹
+		  * @description 使用 FNV-1a，避免密码明文进入缓存键与日志
+		  * @param {String} value - 待计算文本
+		  * @returns {String} 十六进制指纹
+		  */
+		qbitFingerprint(value) {
+			const text = String(value ?? "");
+			let hash = 0x811c9dc5;
+			for (let i = 0; i < text.length; i++) {
+				hash ^= text.charCodeAt(i);
+				hash = Math.imul(hash, 0x01000193) >>> 0;
+			}
+			return hash.toString(16);
+		},
+		/**
+		  * qBittorrent 登录
+		  * @author hmjz100
+		  * @description 调用 `/api/v2/auth/login` 获取会话，兼容 4.x 的 SID 与 5.x 的 QBT_SID_端口
+		  * @param {Object} rpc - 服务配置
+		  * @returns {Promise<Object>} 包含 `ok`、`origin`、`cookie`、`message` 的结果
+		  */
+		async qbitLogin(rpc = {}) {
+			let origin;
+			try { origin = this.qbitEndpoint(rpc); } catch (e) {
+				return { ok: false, message: e.message || "qBittorrent 服务地址无效" };
+			}
+			const data = new URLSearchParams({
+				username: String(rpc.username || ""),
+				password: String(rpc.password || "")
+			});
+			let res;
+			try {
+				res = await base.post(`${origin}${QBIT.api.login}`, data.toString(), {
+					"Content-Type": "application/x-www-form-urlencoded",
+					"Referer": `${origin}/`,
+					"Origin": origin
+				}, "text", false, true);
+			} catch {
+				return { ok: false, origin, message: "无法连接 qBittorrent WebUI，请检查服务地址、端口以及「Web 用户界面」是否已启用" };
+			}
+			const responseHeaders = res?.responseHeaders || {};
+			const rawCookie = responseHeaders["Set-Cookie"] ?? responseHeaders["set-cookie"];
+			const cookies = (Array.isArray(rawCookie) ? rawCookie : [rawCookie]).filter(Boolean).map(item => String(item));
+			const cookie = cookies.map(item => item.split(";")[0].trim()).filter(item => /^[^=]*SID[^=]*=/i.test(item)).pop() || "";
+			const text = String(res?.responseText ?? "").trim();
+			const status = res?.status ?? 0;
+			// 4.x 失败返回 200 与 Fails.，5.x 返回 401；403 表示失败次数过多被临时封禁
+			if (text === "Fails." || status === 401 || status === 403) return { ok: false, origin, message: "qBittorrent 登录失败：账号或密码不正确，或失败次数过多已被临时封禁" };
+			// 5.x 登录成功返回 204 且响应体为空，4.x 返回 200 与 Ok.
+			if (status && status !== 200 && status !== 204) return { ok: false, origin, message: `qBittorrent 登录失败：HTTP ${status}` };
+			if (text && text !== "Ok.") return { ok: false, origin, message: `qBittorrent 登录失败：${this.escapeHtml(text.slice(0, 120))}` };
+			if (!cookie) return { ok: false, origin, message: "qBittorrent 未返回会话凭据，请确认 WebUI 的「验证」设置与脚本配置一致" };
+			return { ok: true, origin, cookie, message: "连接成功" };
+		},
+		/**
+		  * 获取会话
+		  * @description 命中缓存直接复用；并发请求合并为一次登录
+		  * @param {Object} rpc - 服务配置
+		  * @param {Boolean} [force] - 是否强制重新登录
+		  * @returns {Promise<Object>} 由 {@link base.qbitLogin} 返回的会话
+		  */
+		async qbitSession(rpc = {}, force = false) {
+			const key = this.qbitSessionKey(rpc);
+			const fingerprint = this.qbitFingerprint(`${String(rpc.username || "")}\n${String(rpc.password || "")}`);
+			const cached = qbitSessions.get(key);
+			if (!force && cached && cached.fingerprint === fingerprint && cached.expire > Date.now() && cached.session.ok) return cached.session;
+			if (qbitPending.has(key)) return qbitPending.get(key);
+			const task = (async () => {
+				const session = await this.qbitLogin(rpc);
+				if (session.ok) qbitSessions.set(key, { fingerprint, expire: Date.now() + QBIT.sessionTTL, session });
+				else qbitSessions.delete(key);
+				return session;
+			})().finally(() => qbitPending.delete(key));
+			qbitPending.set(key, task);
+			return task;
+		},
+		/**
+		  * 丢弃会话缓存
+		  * @param {Object} rpc - 服务配置
+		  */
+		qbitForgetSession(rpc = {}) {
+			try { qbitSessions.delete(this.qbitSessionKey(rpc)); } catch { }
+		},
+		/**
+		  * 请求 qBittorrent WebUI 接口
+		  * @author hmjz100
+		  * @description 统一附加会话 Cookie 与来源头，兼容 CSRF 校验；默认不输出请求日志
+		  * @param {Object} session - 会话
+		  * @param {String} path - 接口路径，必须以 `/api/v2/` 开头
+		  * @param {Object} [option] - 请求配置，支持 `method`、`data`、`type`、`headers`、`debug`
+		  * @returns {Promise} 原始响应对象
+		  */
+		qbitRequest(session, path, option = {}) {
+			const { method = "GET", data, type = "json", headers = {}, debug = false } = option;
+			const api = String(path || "");
+			// 限定接口前缀，避免拼接出意外的地址
+			if (!api.startsWith(QBIT.prefix)) return Promise.reject(new Error(`非法的 qBittorrent 接口路径：${api}`));
+			const url = `${session.origin}${api}`;
+			return new Promise((resolve, reject) => {
+				base.xmlHttpRequest({
+					method, url, data, responseType: type, anonymous: false,
+					headers: {
+						"Accept": "application/json, text/plain, */*",
+						...(session.cookie ? { "Cookie": session.cookie } : {}),
+						"Referer": `${session.origin}/`,
+						"Origin": session.origin,
+						...headers
+					},
+					onload: (res) => {
+						if (debug) base.console.info("【LinkSwift】qBittorrent(load)\n请求地址：" + url + "\n请求结果：", res);
+						resolve(res);
+					},
+					onerror: (error) => {
+						base.console.error("【LinkSwift】qBittorrent(error)\n请求地址：" + url, error);
+						reject(error);
+					}
+				});
+			});
+		},
+		/**
+		  * 带会话的接口调用
+		  * @description 复用缓存会话；遇到 403 视为会话失效，重新登录后重试一次
+		  * @param {Object} rpc - 服务配置
+		  * @param {String} path - 接口路径
+		  * @param {Object} [option] - 请求配置
+		  * @returns {Promise} 原始响应对象
+		  */
+		async qbitCall(rpc, path, option = {}) {
+			let session = await this.qbitSession(rpc);
+			if (!session.ok) throw Object.assign(new Error(session.message), { session });
+			let res = await this.qbitRequest(session, path, option);
+			if (res?.status === 403) {
+				this.qbitForgetSession(rpc);
+				session = await this.qbitSession(rpc, true);
+				if (!session.ok) throw Object.assign(new Error(session.message), { session });
+				res = await this.qbitRequest(session, path, option);
+			}
+			return res;
+		},
+		/**
+		  * 读取默认的 qBittorrent 配置
+		  * @description 统一字段与缺省值，供设置界面与推送流程复用
+		  * @returns {Object|null} 规范化后的配置
+		  */
+		qbitConfig() {
+			const list = base.getValue("setting_qbit_rpc") || [];
+			const selected = list.find(i => i.default) || list[0] || null;
+			if (!selected) return null;
+			return {
+				domain: selected.domain || "",
+				port: selected.port || "",
+				username: selected.username || "",
+				password: selected.password || "",
+				dir: selected.dir || "",
+				category: selected.category || "",
+				tags: selected.tags || "",
+				paused: selected.paused || ""
+			};
+		},
+		/**
+		  * qBittorrent 服务测试
+		  * @author hmjz100
+		  * @description 强制重新登录后请求版本接口，验证配置与接口可用
+		  * @param {Object} rpc - 服务配置
+		  * @returns {Promise<"success"|"fail">} 连接状态结果
+		  */
+		async testConnectToQBit(rpc = {}) {
+			this.qbitForgetSession(rpc);
+			const session = await this.qbitSession(rpc, true);
+			if (!session.ok) {
+				message.error(this.escapeHtml(session.message));
+				return "fail";
+			}
+			try {
+				const res = await this.qbitRequest(session, QBIT.api.version, { type: "text" });
+				const version = String(res?.responseText ?? "").trim();
+				if (res?.status === 200 && version) {
+					base.console.info("【LinkSwift】qBittorrent 版本：" + version);
+					return "success";
+				}
+				return "fail";
+			} catch {
+				return "fail";
+			}
+		},
 		/**
 		 * 重置请求相关数据
 		 * @author 油小猴
@@ -2167,6 +2425,22 @@
 					]
 				},
 				{
+					name: "setting_qbit_rpc",
+					value: [
+						{
+							domain: "http://localhost",
+							port: "8080",
+							username: "",
+							password: "",
+							category: "",
+							tags: "LinkSwift",
+							dir: "",
+							paused: "",
+							default: true
+						}
+					]
+				},
+				{
 					name: "setting_curl_terminal",
 					value: "wc"
 				},
@@ -2275,6 +2549,10 @@
 					<div>AB Download Manager 服务器</div>
 					<button action="settings" type="abdm" class="${mount} btn default" data-back-to-setting="true"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-plug"/></svg><span>配置</span></button>
 				</label>
+				<label class="${mount} setting-item tip qbit" data-title="有关 qBittorrent 远程服务的配置">
+					<div>qBittorrent 服务器</div>
+					<button action="settings" type="qbit" class="${mount} btn default" data-back-to-setting="true"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-plug"/></svg><span>配置</span></button>
+				</label>
 				<label class="${mount} setting-item curl">
 					<div>终端类型</div>
 					<select name="terminal" class="${mount} input swal2-select">
@@ -2297,7 +2575,7 @@
 				didOpen: (toast) => {
 					const element = $(toast);
 					if (target?.data?.().some(key => key.startsWith("backTo"))) element.find(".swal2-close").addClass(`${mount} tip`).attr("data-title", "返回上页").css({ "left": "10px", "right": "auto" }).text("◃");
-					if (target?.data?.("back-to-downloads")) element.find(".aria2, .bitcomet, .abdm, .other").hide();
+					if (target?.data?.("back-to-downloads")) element.find(".aria2, .bitcomet, .abdm, .qbit, .other").hide();
 				},
 				willClose: () => {
 					if (target?.data?.("back-to-downloads")) base.showMainDialog(config.base.dom.method[temp.mode].title, download.generateDOM(true), config.base.dom.method[temp.mode].footer);
@@ -2595,6 +2873,107 @@
 			});
 		},
 
+		/**
+		 * 显示 qBittorrent 服务设置界面
+		 * @author hmjz100
+		 * @description 包含 WebUI API v2 配置的交互界面，支持多套服务配置切换
+		 */
+		showQBitSetting(target) {
+			const QBList = base.getValue("setting_qbit_rpc") || [];
+			const QBOptions = QBList.map((item, index) => {
+				const label = base.escapeHtml(`${item.domain || ""}:${item.port || ""}`);
+				return `<option value="${index}"${item.default ? " selected" : ""}>${label}</option>`;
+			}).join("");
+			let QBSelected = QBList.find(i => i.default);
+			const QBSetting = `<div style="text-align:center;">适用于 qBittorrent 推送下载（WebUI API v2，需 4.1 及以上版本）</div>
+				<label class="${mount} setting-item">
+					<div>默认配置</div>
+					<div>
+						<select class="${mount} input swal2-select listener-rpc-select" data-type="qbit" style="max-width:50%;min-width:auto">
+							${QBOptions}<option value="new">+ 创建新项目</option>
+						</select>
+						<button class="${mount} btn danger listener-rpc-delete" data-type="qbit"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-x-mark"/></svg><span>删除</span></button>
+						<button class="${mount} btn listener-rpc-test" data-type="qbit" style="margin-left:0"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-plug"/></svg><span>测试</span></button>
+					</div>
+				</label>
+				<label class="${mount} setting-item">
+					<div>服务主机</div>
+					<input type="text" autocomplete="off" placeholder="主机地址，需带上 http(s)://，例如 http://localhost" class="${mount} input swal2-input listener-rpc-input" data-type="qbit.domain" value="">
+				</label>
+				<label class="${mount} setting-item">
+					<div>服务端口</div>
+					<input type="text" autocomplete="off" placeholder="WebUI 端口号，默认为 8080" class="${mount} input swal2-input listener-rpc-input" data-type="qbit.port" value="">
+				</label>
+				<label class="${mount} setting-item">
+					<div>服务账号</div>
+					<input type="text" autocomplete="off" placeholder="WebUI 用户名，未设置可留空" class="${mount} input swal2-input listener-rpc-input" data-type="qbit.username" value="">
+				</label>
+				<label class="${mount} setting-item">
+					<div>服务密码</div>
+					<input type="password" autocomplete="off" placeholder="WebUI 密码，未设置可留空" class="${mount} input swal2-input listener-rpc-input" data-type="qbit.password" value="">
+				</label>
+				<label class="${mount} setting-item">
+					<div>存储路径</div>
+					<input type="text" autocomplete="off" placeholder="文件保存路径，例如 D:\\Downloads\\，留空则使用客户端默认" class="${mount} input swal2-input listener-rpc-input" data-type="qbit.dir" value="">
+				</label>
+				<label class="${mount} setting-item">
+					<div>任务分类</div>
+					<input type="text" autocomplete="off" placeholder="可选，例如 网盘，留空则不分类" class="${mount} input swal2-input listener-rpc-input" data-type="qbit.category" value="">
+				</label>
+				<label class="${mount} setting-item">
+					<div>任务标签</div>
+					<input type="text" autocomplete="off" placeholder="可选，多个标签用英文逗号分隔" class="${mount} input swal2-input listener-rpc-input" data-type="qbit.tags" value="">
+				</label>
+				<label class="${mount} setting-item">
+					<div>添加后状态</div>
+					<div>
+						<select class="${mount} input swal2-select listener-rpc-input" data-type="qbit.paused" style="max-width:50%;min-width:auto">
+							<option value="">跟随客户端设置</option>
+							<option value="false">立即开始</option>
+							<option value="true">暂停</option>
+						</select>
+					</div>
+				</label>
+				<div style="margin-top:1em;text-align:start">
+					<p>使用方法：</p>
+					<ol class="list">
+						<li>在 qBittorrent 的「工具」>「选项」>「Web 用户界面」中勾选 “Web 用户界面（远程控制）”；</li>
+						<li>记下端口号，并在 “验证” 一节设置用户名与密码；</li>
+						<li>把地址、端口、账号、密码填写到上方，点击 “测试” 确认连接；</li>
+						<li>若使用局域网或公网地址访问，需在 “服务器域” 中填入该地址，否则 qBittorrent 会拒绝请求；</li>
+						<li>qBittorrent 只接收磁力链与 .torrent 种子地址，网盘直链文件请改用 Aria2 或比特彗星下载。</li>
+					</ol>
+				</div><style>ol.list{list-style:inside decimal-leading-zero!important;margin:0;padding:0}ol.list li{list-style:inherit}ol.list:before{content:"";display:none}</style>`;
+			Swal.fire({
+				...temp.swalDefault,
+				title: "qBittorrent 服务设置",
+				html: QBSetting,
+				icon: "info",
+				iconHtml: "⚙︎",
+				allowOutsideClick: false,
+				showCloseButton: true,
+				showConfirmButton: false,
+				footer: `<p><a href="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#103;&#105;&#116;&#104;&#117;&#98;&#46;&#99;&#111;&#109;&#47;&#104;&#109;&#106;&#122;&#49;&#48;&#48;&#47;&#76;&#105;&#110;&#107;&#83;&#119;&#105;&#102;&#116;" target="_blank" class="pl-a"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-star"></use></svg>&#76;&#105;&#110;&#107;&#83;&#119;&#105;&#102;&#116;</a>&#32;&#30001;&#32;<a href="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#103;&#105;&#116;&#104;&#117;&#98;&#46;&#99;&#111;&#109;&#47;&#104;&#109;&#106;&#122;&#49;&#48;&#48;" target="_blank" class="pl-a">&#104;&#109;&#106;&#122;&#49;&#48;&#48;</a>&#32;&#21046;&#20316;</p><p>${config.base.dom.footer}</p>`,
+				didOpen: (toast) => {
+					const element = $(toast);
+					if (Object.keys(target.data()).some(key => key.startsWith("backTo"))) element.find(".swal2-close").addClass(`${mount} tip`).attr("data-title", "返回上页").css({ "left": "10px", "right": "auto" }).text("◃");
+					if (QBSelected) {
+						element.find(".listener-rpc-input").each((_, input) => {
+							const type = $(input).data("type").split(".")[1];
+							$(input).val(QBSelected[type] ?? "");
+						});
+					} else {
+						QBList[0].default = true;
+						base.setValue("setting_qbit_rpc", QBList);
+						QBSelected = QBList[0];
+					}
+				},
+				willClose: () => {
+					if (target?.data?.("back-to-setting")) base.showSetting();
+					if (target?.data?.("back-to-downloads")) base.showMainDialog(config.base.dom.method[temp.mode].title, download.generateDOM(true), config.base.dom.method[temp.mode].footer);
+				},
+			});
+		},
 		/**
 		 * 显示美化设置界面
 		 * @author hmjz100
@@ -3418,6 +3797,7 @@
 					case "aria2": base.showAria2Setting(target); break;
 					case "bitcomet": base.showBitcometSetting(target); break;
 					case "abdm": base.showABDMSetting(target); break;
+					case "qbit": base.showQBitSetting(target); break;
 					default: break;
 				}
 			});
@@ -3523,6 +3903,8 @@
 						const domain = selected.domain,
 							port = selected.port;
 						result = await base.testConnectToABDM(domain, port);
+					} else if (type === "qbit") {
+						result = await base.testConnectToQBit(selected);
 					}
 					if (result === "success") {
 						text.html("成功");
@@ -4951,6 +5333,7 @@ button.downloadSubtitle:disabled {
 						case "aria2": res = await download.tools.sendTo.aria2(link, name, headers); break;
 						case "bitcomet": res = await download.tools.sendTo.bitcomet(link, name, headers); break;
 						case "abdm": res = await download.tools.sendTo.abdm(link, name, headers); break;
+						case "qbit": res = await download.tools.sendTo.qbit(link, name, headers); break;
 						default: break;
 					}
 				} catch (e) {
@@ -5150,6 +5533,17 @@ button.downloadSubtitle:disabled {
 							<button action="sendto" type="abdm" class="link ${mount} btn default mini"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-up"/></svg><span>推送地址到 ABDM 下载器</span></button>
 						</div>`);
 					}
+					if (temp.mode === "qbit") {
+						const kind = download.tools.sendTo.qbitLinkKind(link, name);
+						content.find(`.${mount}.main`).append(`<div class="item" data-index="${i}">
+
+							<div class="${mount} name tip" data-size="${size}"><div class="name">${name}</div><div class="size">${base.sizeFormat(size)}</div></div>
+
+							${kind === "direct"
+								? `<button action="copy" type="file.link" class="link ${mount} btn warning mini tip" data-title="${config.base.dom.method.qbit.direct}"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-copy"/></svg>复制地址（qBittorrent 不支持直链）</button>`
+								: `<button action="sendto" type="qbit" class="link ${mount} btn default mini tip" data-title="${config.base.dom.method.qbit.sendto}"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-up"/></svg><span>推送种子到 qBittorrent</span></button>`}
+						</div>`);
+					}
 				}
 			});
 			allLink = (allLink ? allLink.join("\r\n") : "")
@@ -5190,6 +5584,14 @@ button.downloadSubtitle:disabled {
 
 				content.find(`.${mount}.extra`).append(`<button action="settings" type="abdm" class="${mount} btn warning mini tip" data-title="${rpc.domain + ":" + rpc.port}" data-back-to-downloads="true"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-gear"/></svg>修改服务参数</button>`);
 				if (files.length >= 2) content.find(`.${mount}.extra`).append(`<button action="all" type="sendto.abdm" class="${mount} btn default mini"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-up"/></svg>全部推送至下载器</button>`);
+			} else if (temp.mode === "qbit") {
+				const rpc = base.qbitConfig() || {};
+				const endpoint = base.escapeHtml(`${rpc.domain || ""}:${rpc.port || ""}`);
+
+				content.find(`.${mount}.extra`).append(`<button action="settings" type="qbit" class="${mount} btn warning mini tip" data-title="${endpoint}" data-back-to-downloads="true"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-gear"/></svg>修改服务参数</button>`);
+
+				const torrentFiles = files.filter(v => !get.dir(v) && download.tools.sendTo.qbitLinkKind(get.link(v), get.name(v)) !== "direct");
+				if (torrentFiles.length >= 2) content.find(`.${mount}.extra`).append(`<button action="all" type="sendto.qbit" class="${mount} btn default mini tip" data-title="${config.base.dom.method.qbit.sendto}"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-up"/></svg>全部推送至下载器</button>`);
 			}
 			function updateTooltip($element, value) {
 				if (!value) return;
@@ -5508,6 +5910,230 @@ button.downloadSubtitle:disabled {
 						if (rpc.dir) data.folder = rpc.dir;
 						const res = await base.post(url, data, { "Content-Type": "text/plain;charset=UTF-8" }, "text", false);
 						if (res === "OK") return "success";
+						return "fail";
+					});
+				},
+				/**
+				  * 判断链接是否属于 qBittorrent 可接收的类型
+				  * @author hmjz100
+				  * @param {String} link - 下载地址
+				  * @param {String} [filename] - 文件名
+				  * @returns {String} `magnet`、`torrent` 或 `direct`
+				  */
+				qbitLinkKind(link, filename = "") {
+					const value = String(link || "").trim();
+					if (/^magnet:\?/i.test(value)) return "magnet";
+					if (/\.torrent$/i.test(String(filename || "").trim())) return "torrent";
+					let pathname = value;
+					try { pathname = new URL(value, location.href).pathname; } catch { pathname = value.split("?")[0]; }
+					return /\.torrent$/i.test(pathname) ? "torrent" : "direct";
+				},
+				/**
+				  * 提取磁力链中的 info hash
+				  * @description 仅识别 40 位十六进制形式，用于精确回查任务；其他形式返回空串
+				  * @param {String} link - 磁力链
+				  * @returns {String} 小写 info hash 或空串
+				  */
+				qbitInfoHash(link) {
+					const match = String(link || "").match(/[?&]xt=urn:btih:([a-z0-9]+)/i);
+					const hash = match ? match[1].toLowerCase() : "";
+					return /^[a-f0-9]{40}$/.test(hash) ? hash : "";
+				},
+				/**
+				  * 生成新增任务的通用表单参数
+				  * @author hmjz100
+				  * @param {Object} rpc - 服务配置
+				  * @returns {URLSearchParams} 表单参数
+				  */
+				qbitParams(rpc) {
+					const data = new URLSearchParams();
+					if (rpc.dir) data.set("savepath", rpc.dir);
+					if (rpc.category) data.set("category", rpc.category);
+					if (rpc.tags) data.set("tags", rpc.tags);
+					const paused = String(rpc.paused ?? "").trim();
+					// 5.0 起以 stopped 取代 isPaused，旧版本忽略未识别字段，两者同值下发可覆盖各版本
+					if (paused === "true" || paused === "false") {
+						data.set("isPaused", paused);
+						data.set("stopped", paused);
+					}
+					data.set("autoTMM", "false");
+					return data;
+				},
+				/**
+				  * 解析新增任务的返回结果
+				  * @author hmjz100
+				  * @description 兼容 4.x 的 `Ok.`/`Fails.` 文本与 5.x 的 JSON 统计结构
+				  * @param {Object} res - 原始响应对象
+				  * @returns {{state: String, ids: Array<String>}} `state` 为 `success`、`exists`、`pending`、`auth` 或 `fail`
+				  */
+				qbitParseAdd(res) {
+					if (res?.error) {
+						const detail = String(res.error.message || "");
+						return { state: /登录失败|无法连接|未配置|服务地址|服务主机|服务端口/.test(detail) ? "auth" : "fail", ids: [] };
+					}
+					const status = res?.status ?? 0;
+					if (status === 409) return { state: "exists", ids: [] };
+					if (status === 401 || status === 403) return { state: "auth", ids: [] };
+					const text = String(res?.responseText ?? "").trim();
+					let data = null;
+					try { data = JSON.parse(text); } catch { }
+					if (data && typeof data === "object" && !Array.isArray(data)) {
+						const ids = Array.isArray(data.added_torrent_ids) ? data.added_torrent_ids.map(item => String(item).toLowerCase()) : [];
+						if ((data.success_count || 0) > 0 || ids.length) return { state: "success", ids };
+						if ((data.failure_count || 0) > 0) return { state: "fail", ids: [] };
+						// 5.x 对需要客户端自行取回的地址返回 pending，非种子地址不会生成任务
+						if ((data.pending_count || 0) > 0) return { state: "pending", ids: [] };
+						return { state: "fail", ids: [] };
+					}
+					if (status === 200 && (text === "Ok." || text === "")) return { state: "success", ids: [] };
+					return { state: "fail", ids: [] };
+				},
+				/**
+				  * 新增任务
+				  * @author hmjz100
+				  * @description 磁力链走表单提交，种子文件走 multipart 上传，两者共用同一套参数
+				  * @param {Object} rpc - 服务配置
+				  * @param {Object} payload - `{urls}` 或 `{torrent, filename}`
+				  * @returns {Promise<{state: String, ids: Array<String>}>} 解析结果
+				  */
+				async qbitAdd(rpc, payload = {}) {
+					const form = this.qbitParams(rpc);
+					if (payload.torrent) {
+						const boundary = `----LinkSwift${Date.now().toString(16)}${Math.random().toString(16).slice(2, 10)}`;
+						const fields = [...form.entries()].map(([key, value]) => `--${boundary}\r\nContent-Disposition: form-data; name="${key}"\r\n\r\n${value}\r\n`).join("");
+						// multipart 头部不允许出现引号与换行，文件名需先清洗
+						const name = String(payload.filename || "LinkSwift").replace(/\.torrent$/i, "").replace(/[\r\n"\\/:*?<>|]+/g, "_").slice(0, 80) || "LinkSwift";
+						const head = `--${boundary}\r\nContent-Disposition: form-data; name="torrents"; filename="${name}.torrent"\r\nContent-Type: application/x-bittorrent\r\n\r\n`;
+						const body = new Blob([fields, head, payload.torrent, `\r\n--${boundary}--\r\n`]);
+						const res = await base.qbitCall(rpc, QBIT.api.add, {
+							method: "POST", data: body, type: "text",
+							headers: { "Content-Type": `multipart/form-data; boundary=${boundary}` }
+						}).catch(error => ({ error }));
+						return this.qbitParseAdd(res);
+					}
+					form.set("urls", String(payload.urls || ""));
+					const res = await base.qbitCall(rpc, QBIT.api.add, {
+						method: "POST", data: form.toString(), type: "text",
+						headers: { "Content-Type": "application/x-www-form-urlencoded" }
+					}).catch(error => ({ error }));
+					return this.qbitParseAdd(res);
+				},
+				/**
+				  * 取回种子文件
+				  * @author hmjz100
+				  * @description 在浏览器内按网盘要求的请求头取回 .torrent，再交给客户端，避免客户端缺少鉴权头
+				  * @param {String} link - 种子地址
+				  * @param {Object} headers - 请求头
+				  * @returns {Promise<Blob|null>} 种子文件二进制内容
+				  */
+				qbitFetchTorrent(link, headers) {
+					const url = String(link || "").trim();
+					// 只允许 http 与 https，避免把本地协议交给请求接口
+					if (!/^https?:\/\//i.test(url)) return Promise.resolve(null);
+					return new Promise((resolve) => {
+						base.xmlHttpRequest({
+							method: "GET", url, headers: { ...headers }, responseType: "blob", anonymous: false,
+							onload: (res) => {
+								const blob = res?.response;
+								if (!(res?.status >= 200 && res?.status < 300) || !(blob instanceof Blob) || blob.size < QBIT.minTorrentSize) return resolve(null);
+								resolve(blob);
+							},
+							onerror: () => resolve(null)
+						});
+					});
+				},
+				/**
+				  * 解析任务列表响应
+				  * @param {Object} res - 原始响应对象
+				  * @returns {Array} 任务数组
+				  */
+				qbitParseList(res) {
+					if (Array.isArray(res?.response)) return res.response;
+					try {
+						const parsed = JSON.parse(res?.responseText ?? "[]");
+						return Array.isArray(parsed) ? parsed : [];
+					} catch { return []; }
+				},
+				/**
+				  * 回查任务是否真正建立
+				  * @author hmjz100
+				  * @description 优先用 info hash 精确查询，仅在未知哈希时按文件名取最近任务比对
+				  * @param {Object} rpc - 服务配置
+				  * @param {Object} expect - `hash` 与 `name`
+				  * @returns {Promise<Boolean>} 是否已出现对应任务
+				  */
+				async qbitVerify(rpc, expect = {}) {
+					const hash = String(expect.hash || "").toLowerCase();
+					const name = String(expect.name || "").replace(/\.torrent$/i, "").trim().toLowerCase();
+					if (!hash && !name) return false;
+					for (let round = 0; round < QBIT.verifyRounds; round++) {
+						await base.sleep(QBIT.verifyDelay);
+						const query = hash
+							? `?hashes=${encodeURIComponent(hash)}`
+							: `?filter=all&sort=added_on&reverse=true&limit=${QBIT.lastTorrentLimit}`;
+						const res = await base.qbitCall(rpc, `${QBIT.api.info}${query}`, { type: "json" }).catch(() => null);
+						const list = this.qbitParseList(res);
+						if (hash && list.some(item => String(item.hash || "").toLowerCase() === hash)) return true;
+						if (!hash && name && list.some(item => String(item.name || "").toLowerCase() === name)) return true;
+					}
+					return false;
+				},
+				/**
+				  * 发送地址到 qBittorrent 下载器
+				  * @author hmjz100
+				  * @description 仅支持磁力链与 .torrent 种子地址；推送后按 info hash 回查，确认任务真正建立
+				  * @param {String} link - 下载地址
+				  * @param {String} filename - 文件名
+				  * @param {Object} [headers] - 请求头对象（可选）
+				  * @returns {Promise<"success"|"fail">} 发送态结果
+				  */
+				async qbit(link, filename, headers) {
+					if (!this.qbit.lock) this.qbit.lock = Promise.resolve();
+					return this.qbit.lock = this.qbit.lock.then(async () => {
+						const rpc = base.qbitConfig();
+						if (!rpc) {
+							message.error("尚未配置 qBittorrent 服务，请先在「助手设置」中填写服务参数");
+							return "fail";
+						}
+						const kind = this.qbitLinkKind(link, filename);
+						if (kind === "direct") {
+							message.error("qBittorrent 只接收磁力链与 .torrent 种子地址，无法下载网盘直链文件；请改用 Aria2 或比特彗星");
+							return "fail";
+						}
+						let payload;
+						let expect = { hash: "", name: filename };
+						if (kind === "torrent") {
+							const torrent = await this.qbitFetchTorrent(link, base.standHeaders(headers));
+							if (!torrent) {
+								message.error("种子文件获取失败，请确认链接未过期后重试");
+								return "fail";
+							}
+							payload = { torrent, filename };
+						} else {
+							expect.hash = this.qbitInfoHash(link);
+							payload = { urls: link };
+						}
+						const result = await this.qbitAdd(rpc, payload);
+						if (result.state === "exists") {
+							message.info("该任务已存在于 qBittorrent 中，未重复添加");
+							return "success";
+						}
+						if (result.state === "pending") {
+							message.error("qBittorrent 需要自行取回该地址，说明它不是种子或磁力地址，本次推送不会生成下载任务");
+							return "fail";
+						}
+						if (result.state === "auth") {
+							message.error("qBittorrent 登录失败，请检查服务参数与「Web 用户界面」的验证设置");
+							return "fail";
+						}
+						if (result.state !== "success") {
+							message.error("qBittorrent 拒绝了该地址，请确认种子有效后重试");
+							return "fail";
+						}
+						// 5.x 会返回新任务的 info hash，可直接用于精确回查
+						expect.hash = expect.hash || result.ids[0] || "";
+						if (await this.qbitVerify(rpc, expect)) return "success";
+						message.error("已向 qBittorrent 发送请求，但任务列表中未出现对应任务，请检查客户端日志");
 						return "fail";
 					});
 				},
@@ -6028,6 +6654,7 @@ button.downloadSubtitle:disabled {
 						<div class="g-button-menu pl-button-mode" data-mode="aria2"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg><span>Aria2 下载</span></div>
 						<div class="g-button-menu pl-button-mode" data-mode="bitcomet"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg><span>彗星下载</span></div>
 						<div class="g-button-menu pl-button-mode" data-mode="abdm"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg><span>ABDM 下载</span></div>
+						<div class="g-button-menu pl-button-mode" data-mode="qbit"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-drive"/></svg><span>qB 下载</span></div>
 						<div class="g-button-menu pl-button-mode listener-open-setting"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-gear"/></svg><span>助手设置</span></div>
 						<div class="g-button-menu pl-button-mode listener-open-beautify"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-palette"/></svg><span>助手美化</span></div>
 						<div class="g-button-menu pl-button-mode listener-open-updatelog"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-newspaper"/></svg><span>更新日志</span></div>
@@ -6050,6 +6677,7 @@ button.downloadSubtitle:disabled {
 							<li class="sub cursor-p pl-button-mode" data-mode="aria2"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg><span>Aria2 下载</span></li>
 							<li class="sub cursor-p pl-button-mode" data-mode="bitcomet"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg><span>彗星下载</span></li>
 							<li class="sub cursor-p pl-button-mode" data-mode="abdm"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg><span>ABDM 下载</span></li>
+							<li class="sub cursor-p pl-button-mode" data-mode="qbit"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-drive"/></svg><span>qB 下载</span></li>
 							<li class="sub cursor-p pl-button-mode listener-open-setting"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-gear"/></svg><span>助手设置</span></li>
 							<li class="sub cursor-p pl-button-mode listener-open-beautify"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-palette"/></svg><span>助手美化</span></li>
 							<li class="sub cursor-p pl-button-mode listener-open-updatelog"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-newspaper"/></svg><span>更新日志</span></li>
@@ -6091,6 +6719,7 @@ button.downloadSubtitle:disabled {
 						<li class="sub cursor-p pl-button-mode" data-mode="aria2"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg><span>Aria2 下载</span></li>
 						<li class="sub cursor-p pl-button-mode" data-mode="bitcomet"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg><span>彗星下载</span></li>
 						<li class="sub cursor-p pl-button-mode" data-mode="abdm"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg><span>ABDM 下载</span></li>
+						<li class="sub cursor-p pl-button-mode" data-mode="qbit"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-drive"/></svg><span>qB 下载</span></li>
 						<li class="sub cursor-p pl-button-mode listener-open-setting"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-gear"/></svg><span>助手设置</span></li>
 						<li class="sub cursor-p pl-button-mode listener-open-beautify"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-palette"/></svg><span>助手美化</span></li>
 						<li class="sub cursor-p pl-button-mode listener-open-updatelog"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-newspaper"/></svg><span>更新日志</span></li>
@@ -6636,6 +7265,7 @@ button.downloadSubtitle:disabled {
 						<li class="pl-button-mode" data-mode="aria2"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg><span>Aria2 下载</span></li>
 						<li class="pl-button-mode" data-mode="bitcomet"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg><span>彗星下载</span></li>
 						<li class="pl-button-mode" data-mode="abdm"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg><span>ABDM 下载</span></li>
+						<li class="pl-button-mode" data-mode="qbit"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-drive"/></svg><span>qB 下载</span></li>
 						<li class="pl-button-mode listener-open-setting"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-gear"/></svg><span>助手设置</span></li>
 						<li class="pl-button-mode listener-open-beautify"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-palette"/></svg><span>助手美化</span></li>
 						<li class="pl-button-mode listener-open-updatelog"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-newspaper"/></svg><span>更新日志</span></li>
@@ -6910,6 +7540,7 @@ button.downloadSubtitle:disabled {
 						<li class="pl-button-mode" data-mode="aria2"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg><span>Aria2 下载</span></li>
 						<li class="pl-button-mode" data-mode="bitcomet"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg><span>彗星下载</span></li>
 						<li class="pl-button-mode" data-mode="abdm"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg><span>ABDM 下载</span></li>
+						<li class="pl-button-mode" data-mode="qbit"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-drive"/></svg><span>qB 下载</span></li>
 						<li class="pl-button-mode listener-open-setting"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-gear"/></svg><span>助手设置</span></li>
 						<li class="pl-button-mode listener-open-beautify"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-palette"/></svg><span>助手美化</span></li>
 						<li class="pl-button-mode listener-open-updatelog"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-newspaper"/></svg><span>更新日志</span></li>
@@ -7180,6 +7811,7 @@ button.downloadSubtitle:disabled {
 					<li class="pl-button-mode" data-mode="aria2"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg><span>Aria2 下载</span></li>
 					<li class="pl-button-mode" data-mode="bitcomet"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg><span>彗星下载</span></li>
 					<li class="pl-button-mode" data-mode="abdm"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg><span>ABDM 下载</span></li>
+					<li class="pl-button-mode" data-mode="qbit"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-drive"/></svg><span>qB 下载</span></li>
 					<li class="pl-button-mode listener-open-setting"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-gear"/></svg><span>助手设置</span></li>
 					<li class="pl-button-mode listener-open-beautify"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-palette"/></svg><span>助手美化</span></li>
 					<li class="pl-button-mode listener-open-updatelog"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-newspaper"/></svg><span>更新日志</span></li>
@@ -7389,6 +8021,7 @@ button.downloadSubtitle:disabled {
 						<li class="pl-button-mode" data-mode="aria2"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg><span>Aria2 下载</span></li>
 						<li class="pl-button-mode" data-mode="bitcomet"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg><span>彗星下载</span></li>
 						<li class="pl-button-mode" data-mode="abdm"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg><span>ABDM 下载</span></li>
+						<li class="pl-button-mode" data-mode="qbit"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-drive"/></svg><span>qB 下载</span></li>
 						<li class="pl-button-mode listener-open-setting"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-gear"/></svg><span>助手设置</span></li>
 						<li class="pl-button-mode listener-open-beautify"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-palette"/></svg><span>助手美化</span></li>
 						<li class="pl-button-mode listener-open-updatelog"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-newspaper"/></svg><span>更新日志</span></li>
@@ -7728,6 +8361,7 @@ button.downloadSubtitle:disabled {
 					<li class="pl-button-mode" data-mode="aria2"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg><span>Aria2 下载</span></li>
 					<li class="pl-button-mode" data-mode="bitcomet"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg><span>彗星下载</span></li>
 					<li class="pl-button-mode" data-mode="abdm"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg><span>ABDM 下载</span></li>
+					<li class="pl-button-mode" data-mode="qbit"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-drive"/></svg><span>qB 下载</span></li>
 					<li class="pl-button-mode listener-open-setting"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-gear"/></svg><span>助手设置</span></li>
 					<li class="pl-button-mode listener-open-beautify"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-palette"/></svg><span>助手美化</span></li>
 					<li class="pl-button-mode listener-open-updatelog"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-newspaper"/></svg><span>更新日志</span></li>
@@ -8060,6 +8694,7 @@ button.downloadSubtitle:disabled {
 							<li class="pl-button-mode" data-mode="aria2"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg><span>Aria2 下载</span></li>
 							<li class="pl-button-mode" data-mode="bitcomet"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg><span>彗星下载</span></li>
 							<li class="pl-button-mode" data-mode="abdm"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg><span>ABDM 下载</span></li>
+							<li class="pl-button-mode" data-mode="qbit"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-drive"/></svg><span>qB 下载</span></li>
 							<li class="pl-button-mode listener-open-setting"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-gear"/></svg><span>助手设置</span></li>
 							<li class="pl-button-mode listener-open-beautify"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-palette"/></svg><span>助手美化</span></li>
 							<li class="pl-button-mode listener-open-updatelog"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-newspaper"/></svg><span>更新日志</span></li>
@@ -8084,6 +8719,7 @@ button.downloadSubtitle:disabled {
 						<li class="pl-button-mode" data-mode="aria2"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg><span>Aria2 下载</span></li>
 						<li class="pl-button-mode" data-mode="bitcomet"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg><span>彗星下载</span></li>
 						<li class="pl-button-mode" data-mode="abdm"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg><span>ABDM 下载</span></li>
+						<li class="pl-button-mode" data-mode="qbit"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-drive"/></svg><span>qB 下载</span></li>
 						<li class="pl-button-mode listener-open-setting"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-gear"/></svg><span>助手设置</span></li>
 						<li class="pl-button-mode listener-open-beautify"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-palette"/></svg><span>助手美化</span></li>
 						<li class="pl-button-mode listener-open-updatelog"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-newspaper"/></svg><span>更新日志</span></li>
@@ -8371,6 +9007,7 @@ button.downloadSubtitle:disabled {
 						<li class="pl-button-mode" data-mode="aria2"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg><span>Aria2 下载</span></li>
 						<li class="pl-button-mode" data-mode="bitcomet"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg><span>彗星下载</span></li>
 						<li class="pl-button-mode" data-mode="abdm"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg><span>ABDM 下载</span></li>
+						<li class="pl-button-mode" data-mode="qbit"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-drive"/></svg><span>qB 下载</span></li>
 						<li class="pl-button-mode listener-open-setting"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-gear"/></svg><span>助手设置</span></li>
 						<li class="pl-button-mode listener-open-beautify"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-palette"/></svg><span>助手美化</span></li>
 						<li class="pl-button-mode listener-open-updatelog"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-newspaper"/></svg><span>更新日志</span></li>
@@ -8392,6 +9029,7 @@ button.downloadSubtitle:disabled {
 						<li class="pl-button-mode" data-mode="aria2"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg><span>Aria2 下载</span></li>
 						<li class="pl-button-mode" data-mode="bitcomet"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg><span>彗星下载</span></li>
 						<li class="pl-button-mode" data-mode="abdm"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg><span>ABDM 下载</span></li>
+						<li class="pl-button-mode" data-mode="qbit"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-drive"/></svg><span>qB 下载</span></li>
 						<li class="pl-button-mode listener-open-setting"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-gear"/></svg><span>助手设置</span></li>
 						<li class="pl-button-mode listener-open-beautify"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-palette"/></svg><span>助手美化</span></li>
 						<li class="pl-button-mode listener-open-updatelog"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-newspaper"/></svg><span>更新日志</span></li>
@@ -8940,6 +9578,7 @@ button.downloadSubtitle:disabled {
 						<li class="pl-button-mode" data-mode="aria2"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg><span>Aria2 下载</span></li>
 						<li class="pl-button-mode" data-mode="bitcomet"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg><span>彗星下载</span></li>
 						<li class="pl-button-mode" data-mode="abdm"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg><span>ABDM 下载</span></li>
+						<li class="pl-button-mode" data-mode="qbit"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-drive"/></svg><span>qB 下载</span></li>
 						<li class="pl-button-mode listener-open-setting"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-gear"/></svg><span>助手设置</span></li>
 						<li class="pl-button-mode listener-open-beautify"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-palette"/></svg><span>助手美化</span></li>
 						<li class="pl-button-mode listener-open-updatelog"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-newspaper"/></svg><span>更新日志</span></li>
@@ -8961,6 +9600,7 @@ button.downloadSubtitle:disabled {
 						<li class="pl-button-mode" data-mode="aria2"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg><span>Aria2 下载</span></li>
 						<li class="pl-button-mode" data-mode="bitcomet"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg><span>彗星下载</span></li>
 						<li class="pl-button-mode" data-mode="abdm"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg><span>ABDM 下载</span></li>
+						<li class="pl-button-mode" data-mode="qbit"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-drive"/></svg><span>qB 下载</span></li>
 						<li class="pl-button-mode listener-open-setting"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-gear"/></svg><span>助手设置</span></li>
 						<li class="pl-button-mode listener-open-beautify"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-palette"/></svg><span>助手美化</span></li>
 						<li class="pl-button-mode listener-open-updatelog"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-newspaper"/></svg><span>更新日志</span></li>
